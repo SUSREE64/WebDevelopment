@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form elements</title>
+    <h1>Form and input types Demo page</h1>
+    <form action = "/nextpage">
+      <label for ="textBox">Text Input</label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" id = "textBox" name = 'username'/><br /><br />
+      <label for ="emailBox">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="email" id ="emailBox" name = "mailid"/><br /><br />
+      <label for ="checkBox">Check Box</label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" id ="checkBox" name="selected"/><br /><br />
+      <label for = "colorPicker">Color Picker</label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="color" id ="colorPicker"  name = 'color'/><br /><br />
+      <label for = "btn">Button</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" id ="btn" value="Button" name = 'btn'/><br /><br />
+      <label for = "date">Date</label>&nbsp;&nbsp;&nbsp;
+      <input type="date" id = "date" name = "date"/><br /><br />
+      <label for ="fileget">file</label>&nbsp;&nbsp;&nbsp; 
+      <input type="file" id = "fileget"/><br /><br />
+      <label for = "month">month</label>&nbsp;&nbsp;&nbsp;
+      <input type="month" id = "month" /><br /><br />
+      <label for = "radio">Single Radio Button</label>&nbsp;&nbsp;&nbsp;
+      <input type="radio" id = "radio" /><br /><br />
+      
+      <p>
+        <!-- grouping radio buttons for single selection -->
+        <!--Name of the all Radio butttons has to be same-->
+        <!--value has to be uniques to send this to form data -->
+        <!--by default we can select one button selected with checked -->
+        <h3>Select your T-Shirt size</h3>
+        <label for = "s">Small</label>
+        <input type ="radio" name = "size" id = "s" value = "s">
+        <label for = "m">Medium</label>
+        <input  type ="radio" name = "size" id = "m" value = "m" checked>
+        <label for = "l">Large</label>
+        <input type ="radio" name = "size" id = "l" value = "l">
+        <label for = xl>XtraLarge</label>
+        <input type ="radio" name = "size" id = "xl" value = "xl">
+      
+      </p>
+      <p>
+        <!--Drop down values box and selection -->
+        <select name = 'meal'></select>
+        <label for = 'meal'>Select an item</label>
+        <select name = 'meal'></select>
+
+
+
+
+      </p>
+      
+      
+      <label for = "rangeslide">Range</label>&nbsp;&nbsp;&nbsp;
+      <input type="range" id = "rangeslide" min="10" max="100" step="1" /><br><br>
+      <label for = "time">Time</label>&nbsp;&nbsp;
+      <input type ="time" value = "0" id = "time"/><br><br>
+      <label for = "week" >Week</label>&nbsp;&nbsp;
+      <input type ="week" value = "0" id = "week"/><br><br>
+      <label for = "submit">Form Submit</label>&nbsp; &nbsp;
+      <input type="submit" value="Submit Form"id = "submit"/><br><br>
+      <label for = "reset">Form Reset</label>&nbsp; &nbsp;
+      <input type="reset" value="Reset Form" id = "reset"><br><br>
+      <label for = "password">Password</label>&nbsp; &nbsp;
+      <input type="password" value="" id = "password">
+      
+    </form>
+
+  </head>
+  <body></body>
+</html>
